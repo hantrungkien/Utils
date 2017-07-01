@@ -10,9 +10,9 @@ public class NetworkGenerator {
     private static final String PASSWORD = "password";
 
     //api interface class
-    ArendApi api;
+    Api api;
 
-    public ArendApi getApi() {
+    public Api getApi() {
         return api;
     }
 
@@ -56,7 +56,7 @@ public class NetworkGenerator {
                 .client(defaultHttpClient)
                 .build();
 
-        api = _retrofit.create(ArendApi.class);
+        api = _retrofit.create(Api.class);
     }
 
     public static void clearInstance() {
