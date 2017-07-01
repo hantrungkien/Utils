@@ -1,7 +1,6 @@
 /**
-
  * Created by kienht on 7/16/16.
-kienht */
+ */
 public class PrefUtils {
 
     public static final String PREF_NAME = "ArendPrefs";
