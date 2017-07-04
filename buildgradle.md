@@ -29,3 +29,13 @@ allprojects {
 }
 
 ````
+
+````
+Realm.init(this);
+        RealmConfiguration config = new RealmConfiguration.Builder()
+                .name(DB_NAME)
+                .schemaVersion(DB_VERSION)
+                .deleteRealmIfMigrationNeeded()
+                .build();
+        Realm.setDefaultConfiguration(config);
+````
