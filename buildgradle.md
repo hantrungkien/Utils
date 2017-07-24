@@ -19,7 +19,7 @@ compile 'com.github.hantrungkien:AutoDimension:1.0.1'
 ````
 
 ````gradle app
-classpath "io.realm:realm-gradle-plugin:3.1.0"
+classpath "io.realm:realm-gradle-plugin:3.5.0"
 
 allprojects {
     repositories {
