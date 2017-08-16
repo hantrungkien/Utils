@@ -14,7 +14,7 @@ annotationProcessor 'org.parceler:parceler:1.1.6'
 compile 'com.kaopiz:kprogresshud:1.0.5'
 compile 'com.github.bumptech.glide:glide:3.7.0'
 compile 'com.github.GrenderG:Toasty:1.1.3'
-compile 'com.github.hantrungkien:AutoDimension:1.0.1'
+compile 'com.github.hantrungkien:AutoDimension:1.0.2'
 
 ````
 
