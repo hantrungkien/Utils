@@ -3,7 +3,7 @@
  */
 public class PrefUtils {
 
-    public static final String PREF_NAME = "";
+    private static final String PREF_NAME = "";
 
     private static PrefUtils _instance;
 
