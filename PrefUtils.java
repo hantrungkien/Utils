@@ -7,7 +7,7 @@ public class PrefUtils {
 
     private static PrefUtils _instance;
 
-    SharedPreferences prefs;
+    private SharedPreferences prefs;
 
     private PrefUtils(Context context) {
         prefs = context.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE);
@@ -18,6 +18,10 @@ public class PrefUtils {
             _instance = new PrefUtils(context);
         }
         return _instance;
+    }
+    
+    public interface PREF_KEY {
+        
     }
 
     public void set(String key, String value) {
